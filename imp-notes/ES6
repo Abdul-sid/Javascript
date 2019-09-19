@@ -1,0 +1,72 @@
+1 ) Object.freeze(object-name)   (Once the object is frozen, you can no longer add, update, or delete properties from it. Any attempt at changing the object will be rejected without an error)
+
+2 ) .map()   (access numbers of array one by one)
+The map() method creates a new array with the results of calling a function for every array element.
+The map() method calls the provided function once for each element in an array, in order
+----------------------------------
+
+let c = companies.map(function(b){
+    return b.name;
+})
+
+-----------------------------
+
+3 ) .filter()  (The filter() method creates an array filled with all array elements that pass a test (provided as a function))
+-----------------------
+let a = [1,2,3,4,5,6,7];
+
+let b = [];
+
+for(var i = 0 ; i < a.length ; a++){
+    if (5 >= a[i]){
+        b.push(a[i]);
+    }
+} 
+
+-------------------------
+a.filter(function(b) {
+if (b >= 5){
+    return true ;
+};
+})
+------------------------
+a.filter((b) => {
+if (b >= 5){
+    return true ;
+};
+})
+----------------------
+
+4 ) .forEach() 
+
+let a = [1,2,3,4,5,6,7];
+----------------------
+a.forEach((b) => {
+console.log(b);
+})
+----------------------
+a.forEach(function(b)  {
+console.log(b);
+})
+
+
+https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6/write-higher-order-arrow-functions/
+
+5 ) .concat (combining two arrays)
+array1.concat(2);
+array = [...array1,...array2];
+
+6 ) // REST: condense multiple elements into an array
+function multiply(multiplier, ...theArgs) {
+  return theArgs.map(function(element) {
+    return multiplier * element;
+  });
+}
+
+var arr = multiply(2, 1, 2, 3); 
+console.log(arr)
+
+------------------------
+
+7) const maximus = Math.max(...arr); (to retreive max number by spreading method)
+

@@ -1,0 +1,33 @@
+Tricky methods
+
+1 ) .push() => put the element at the last of the array
+2 ) .pop() => remove element from last of the array
+3 ) .shift()  => It works just like .pop(), except it removes the first element instead of the last.
+4 ) .unshift() => works exactly like .push(), but instead of adding the element at the end of the array, unshift() adds the element at the beginning of the array. 
+
+OBJECTS
+
+5 ) <object-name>.<object-property> (to access property of an object)
+6 ) <object-name>["<object-property>"] (to access property of an object)
+7 ) delete <object-name>.<object-property> (To delete any property from object)
+8 ) .hasOwnProperty("top"); (to find the property in the object)
+
+https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/record-collection (didnt understand)
+https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/using-objects-for-lookups/
+
+GENERATING RANDOM NUMBERS
+
+9) Math.floor(Math.random() * (max - min + 1)) + min (random numbers between 2 values inclusive)
+10 ) Math.floor(Math.random() * (max - min)) + min  (random numbers between 2 values)
+
+STRING TO INTEGER
+
+11 ) parseInt() (numbers store in string into integers)
+
+(TERNARY) OPERATOR
+
+12 ) condition ? statement-if-true : statement-if-false (Use the Conditional (Ternary) Operator)
+
+13 ) https://2ality.com/2015/01/es6-maps-sets.html (map)
+
+
